@@ -1,8 +1,9 @@
 import React from 'react';
-import '../styles/pages/landing.css';
+import './landing.css';
 
-import LogoImage from '../assets/logo.svg';
+import LogoImage from '../../assets/logo.svg';
 import { FiArrowRight } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 function Landing() {
   return (
@@ -20,9 +21,9 @@ function Landing() {
           <span>São Paulo</span>
         </div>
 
-        <a href="" className="enter-app">
-          <FiArrowRight size={ 26 } color={ "rba(0, 0, 0, 0.6)" } />
-        </a>
+        <Link to="/map" className="enter-app">
+          <FiArrowRight size={ 26 } />
+        </Link>
       </div>
     </div>
   );

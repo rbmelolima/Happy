@@ -17,7 +17,7 @@
   max-width: 1100px;
 
   height: 100%;
-  max-height: 600px;
+  max-height: 665px;
 
   display: flex;
   align-items: flex-start;
@@ -70,6 +70,8 @@
   height: 80px;
   background-color: #ffd666;
   border-radius: 30px;
+
+  color: #000;
 
   display: flex;
   align-items: center;
